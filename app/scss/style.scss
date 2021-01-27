@@ -5,7 +5,7 @@
 @import "libs";
 @import "fonts";
 @import "global";
-@import "media";
+
 
 .header {
   position: fixed;
@@ -58,6 +58,12 @@
     & + .menu__list-item {
       padding-left: 18px;
     }
+  }
+  &__list-phone {
+    display: none;
+  }
+  &__btn {
+    display: none;
   }
 }
 
@@ -536,3 +542,6 @@
     color: rgba(#fff, .64);
   }
 }
+
+
+@import "media";
