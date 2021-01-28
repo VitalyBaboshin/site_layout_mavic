@@ -46,10 +46,10 @@ gulp.task('script', function(){
 
 gulp.task('js', function(){
     return gulp.src([
+        'app/scroll/scrolloverflow.min.js',
         'node_modules/slick-carousel/slick/slick.js',
-        'node_modules/fullpage.js/dist/fullpage.js',
-        'node_modules/fullpage.js/vendors/scrolloverflow.min.js'
-
+        'app/scroll/jquery.fullpage.extensions.min.js',
+        'app/js/main.js'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
