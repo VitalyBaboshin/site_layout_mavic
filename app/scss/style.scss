@@ -58,6 +58,9 @@
     & + .menu__list-item {
       padding-left: 18px;
     }
+    &.active a {
+      text-decoration: underline;
+    }
   }
   &__list-phone {
     display: none;
@@ -169,7 +172,7 @@
   right: 0;
   cursor: pointer;
   z-index: 5;
-  bottom: -45px;
+  bottom: -48px;
   svg {
     stroke: #1C1C1C;
   }
@@ -322,9 +325,9 @@
   }
   &__box-2::before{
     background-image: url("../images/pointer-3.svg");
-    width: 346px;
+    width: 433px;
     height: 81px;
-    right: -308px;
+    right: -372px;
     top: -65px;
   }
   &__box-3::before{
@@ -337,8 +340,8 @@
   &__box-4::before{
     background-image: url("../images/pointer-4.svg");
     width: 124px;
-    height: 89px;
-    left: -122px;
+    height: 83px;
+    left: -160px;
     top: -66px;
   }
 
