@@ -21,6 +21,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.1"
+
   },
   "dependencies": {
     "fullpage.js": "^3.0.9",
